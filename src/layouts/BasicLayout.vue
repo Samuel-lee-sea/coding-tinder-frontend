@@ -1,12 +1,12 @@
 <template>
-  <!-- <van-nav-bar
+  <van-nav-bar
     title="title"
     left-arrow
   >
     <template #right>
       <van-icon name="search" size="18" />
     </template>
-  </van-nav-bar> -->
+  </van-nav-bar>
 
 
   <van-tabbar v-model="active" >
@@ -29,5 +29,10 @@
 </script>
 
 <style scoped>
-
+  .van-nav-bar {
+      width: 100%;
+      left: 0;
+      top: 0;
+      position: fixed;
+  }
 </style>
